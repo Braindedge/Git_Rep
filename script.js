@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('yesButton').addEventListener('click', function() {
-        replaceContentWithLoveMessage('tenor.gif', 'YES vocal.m4a');
+        replaceContentWithLoveMessage('tenor.gif', 'YES vocal.mp3');
     });
 
     document.getElementById('noButton').addEventListener('click', function() {
-        showImageAndText('X.png', 'NO vocal.m4a');
+        showImageAndText('X.png', 'NO vocal.mp3');
     });
 });
 
