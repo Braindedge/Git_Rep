@@ -1,0 +1,67 @@
+body {
+    background-image: url('Sun-Grass.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: for better visibility of the content */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#photoX {
+    max-width: 100%;
+    height: auto;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeOut 5s forwards;
+}
+
+#resultImage {
+    max-width: 80%;
+    height: auto;
+}
+
+#tryAgain {
+    color: white;
+    font-size: 2em;
+    margin-top: 20px;
+}
+#loveText {
+    color: red;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+@keyframes fadeOut {
+    to { opacity: 0; visibility: hidden; }
+}
